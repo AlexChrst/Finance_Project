@@ -5,6 +5,8 @@ __pycache__/
 
 data/
 real_scraped_data.csv
+real_tabulation_scraped_data.csv
+
 
 # C extensions
 *.so
