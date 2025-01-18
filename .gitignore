@@ -3,6 +3,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+data/
+<<<<<<< HEAD
+real_tabulation_scraped_data/
+=======
+real_scraped_data.csv
+real_tabulation_scraped_data.csv
+
+>>>>>>> 49d27d7048e76aefd1fd9b8a21e56644e9e14c22
+
 # C extensions
 *.so
 
