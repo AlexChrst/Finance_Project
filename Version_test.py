@@ -135,7 +135,7 @@ def scrape_roe(driver, company_name, date_str):
 def main():
     input_file = "real_tabulation_scraped_data.csv"
     data = pd.read_csv(input_file, delimiter="\t", on_bad_lines='skip')
-    #Il faudra tester avec plus d'entreprises par la suite 
+    #Modifier cette ligne pour pouvoir tester avec plus d'entreprises (voire le fichier en entier)
     top_companies = data.head(10)
     
     driver = setup_driver()
