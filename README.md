@@ -1,18 +1,33 @@
-# Finance_Project
+# Finance_Project  
 
-Ce projet a pour objectif d'analyser les données financières et ESG (Environnement, Social et Gouvernance) des entreprises. Il comprend plusieurs étapes, allant du scraping des données à l'analyse des corrélations.
+## Overview  
 
-## Structure du projet
+This project aims to analyze financial and ESG (Environmental, Social, and Governance) data from companies. It involves multiple stages, ranging from data scraping to correlation analysis.  
 
-- `first_approach.ipynb` : Contient le code des corrélations réalisées par les auteurs, l'import de la base `merged_data.csv` et quelques nettoyages et modifications de cette dernière.
-- `scraping.ipynb` : Contient le code du scraping des données ESG à partir de sources en ligne.
-- `merge.ipynb` : Contient le code qui importe les données scrappées ESG et ROE et les fusionne. Ces données sont ensuite utilisées dans le code `first_approach.ipynb`.
-- `expanded_tests.ipynb` : Contient des tests supplémentaires et des analyses approfondies. Tests de normalité et corrélation de Spearman x Kendall
-- `requirements.txt` : Liste des dépendances nécessaires pour exécuter le projet.
+## Background  
 
-## Installation
+The project is based on the analysis conducted by the authors of the following study:  
+[K-MEANS AND AGGLOMERATIVE HIERARCHICAL CLUSTERING ANALYSIS OF ESG SCORES YEARLY VARIATIONS AND STOCK RETURNS: INSIGHTS FROM THE ENERGY SECTOR IN EUROPE AND THE UNITED STATES](https://www.researchgate.net/publication/374285566_K-MEANS_AND_AGGLOMERATIVE_HIERARCHICAL_CLUSTERING_ANALYSIS_OF_ESG_SCORES_YEARLY_VARIATIONS_AND_STOCK_RETURNS_INSIGHTS_FROM_THE_ENERGY_SECTOR_IN_EUROPE_AND_THE_UNITED_STATES).  
 
-Pour installer les dépendances nécessaires, exécutez la commande suivante :
+In this study, the authors examined correlations using two machine learning algorithms on energy sector data from Europe and the United States.  
+
+## Project Scope  
+
+Our project builds upon their research by:  
+- Expanding the analysis to a broader range of countries and industries.  
+- Enhancing the methodology to provide deeper insights.  
+
+## Project Structure  
+
+- `first_approach.ipynb`: Contains the code for the correlation analysis conducted by the original authors, the import of the `merged_data.csv` dataset, and some cleaning and modifications of the data.  
+- `scraping.ipynb`: Contains the code for scraping ESG data from online sources.  
+- `merge.ipynb`: Imports the scraped ESG and ROE data and merges them. These processed data are then used in `first_approach.ipynb`.  
+- `expanded_tests.ipynb`: Includes additional tests and in-depth analyses, such as normality tests and Spearman vs. Kendall correlation analysis.  
+- `requirements.txt`: Lists the dependencies required to run the project.  
+
+## Installation  
+
+To install the necessary dependencies, run the following command:  
 
 ```sh
 pip install -r requirements.txt
