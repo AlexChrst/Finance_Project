@@ -19,11 +19,23 @@ Our project builds upon their research by:
 
 ## Project Structure  
 
+### Notebooks
+
 - `first_approach.ipynb`: Contains the code for the correlation analysis conducted by the original authors, the import of the `merged_data.csv` dataset, and some cleaning and modifications of the data.  
 - `scraping.ipynb`: Contains the code for scraping ESG data from online sources.  
 - `merge.ipynb`: Imports the scraped ESG and ROE data and merges them. These processed data are then used in `first_approach.ipynb`.  
 - `expanded_tests.ipynb`: Includes additional tests and in-depth analyses, such as normality tests and Spearman vs. Kendall correlation analysis.  
 - `extend.ipynb`: Extends the analysis of the ESG-ROE relationship using advanced statistical and machine learning models, including OLS regression, LASSO regression, and Random Forest, with SHAP for interpretability, applied at global, sectoral, and geographical levels.
+
+### Data files
+- `real_tabulation_scraped_data.csv`: Contains the raw ESG data scraped from our web-scraping.
+- `roe_results_tab.csv`: Contains the ROE (Return on Equity) data for various companies.
+- `merged_data.csv`: The merged dataset combining ESG and ROE data, used for correlation analysis and further processing.
+- `the_final_merged_file.csv`: The final merged dataset used for the expanded tests and in-depth analyses with continents and global sectors.
+- `df_2024_with_variables.csv`: Contains the dataset for the year 2024 with additional ESG variables for extended analysis.
+
+
+
 - `requirements.txt`: Lists the dependencies required to run the project.  
 
 ## Installation  
