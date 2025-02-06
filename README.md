@@ -34,7 +34,7 @@ Our project builds upon their research by:
 - `the_final_merged_file.csv`: The final merged dataset used for the expanded tests and in-depth analyses with continents and global sectors.
 - `df_2024_with_variables.csv`: Contains the dataset for the year 2024 with additional ESG variables for extended analysis.
 
-
+### Others
 
 - `requirements.txt`: Lists the dependencies required to run the project.  
 
