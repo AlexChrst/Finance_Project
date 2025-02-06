@@ -23,6 +23,7 @@ Our project builds upon their research by:
 - `scraping.ipynb`: Contains the code for scraping ESG data from online sources.  
 - `merge.ipynb`: Imports the scraped ESG and ROE data and merges them. These processed data are then used in `first_approach.ipynb`.  
 - `expanded_tests.ipynb`: Includes additional tests and in-depth analyses, such as normality tests and Spearman vs. Kendall correlation analysis.  
+- `extend.ipynb`: Extends the analysis of the ESG-ROE relationship using advanced statistical and machine learning models, including OLS regression, LASSO regression, and Random Forest, with SHAP for interpretability, applied at global, sectoral, and geographical levels.
 - `requirements.txt`: Lists the dependencies required to run the project.  
 
 ## Installation  
