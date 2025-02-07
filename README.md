@@ -50,3 +50,9 @@ To install the necessary dependencies, run the following command:
 
 ```sh
 pip install -r requirements.txt
+```
+
+
+To launch the API
+```sh
+uvicorn creation_API:app --reload
